@@ -19,7 +19,7 @@ CONFIG_SCHEMA = cv.Schema(
         cv.Required(CONF_CARRIER_DUTY_PERCENT): cv.All(
             cv.percentage_int, cv.Range(min=1, max=100)
         ),
-        cv.Optional(CONF_RMT_CHANNEL, default=2): cv.Range(min=1, max=8)
+        cv.Optional(CONF_RMT_CHANNEL, default=2): cv.Range(min=0, max=1)
     }
 ).extend(cv.COMPONENT_SCHEMA)
 
