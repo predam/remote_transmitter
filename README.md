@@ -13,7 +13,7 @@ external_components:
 remote_transmitter:
   pin:
     number: 3
-  rmt_channel: 2
+  rmt_channel: 0
   dump: all
 ```
 
