@@ -1,4 +1,4 @@
-# remote_receiver
+# remote_transmitter
 Temporary remote_receiver component for Esphome
 
 When using a remote_transmitter in an ESP32-C3 project the receiver must be on channel 0 or 1. The current Esphome code has no option for configuring that.
